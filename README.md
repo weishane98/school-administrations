@@ -86,6 +86,16 @@ You can place your database migration scripts in typescript/database folder. <br
 It will be ran the first time MySQL docker container is first initialised. <br><br>
 Please provide the instruction on how to initialise the database if you are not using the above method.
 
+Once you set it all up, install the dependencies and run docker. Start the MySQL container and migrate the database models:
+```bash
+npx sequelize-cli db:migrate
+```
+
+### Test
+```bash
+npm test
+```
+
 <br>
 
 ## FAQ
