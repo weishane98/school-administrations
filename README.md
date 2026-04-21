@@ -98,6 +98,8 @@ npx sequelize-cli db:migrate
 npm test
 ```
 
+i added another sample csv data, data.csv, for the import if you would like to use them too
+
 <br>
 
 ## FAQ
